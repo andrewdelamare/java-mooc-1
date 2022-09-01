@@ -8,4 +8,14 @@ public class DivisibleByThree {
 
     }
 
+    public static void divisibleByThreeInRange(int first, int second) {
+        int i = first;
+        while(i <= second){
+            if(i % 3 == 0){
+                System.out.println(i);
+            }
+            i++;
+        }
+        
+    }
 }
